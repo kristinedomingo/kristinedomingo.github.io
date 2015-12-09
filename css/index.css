@@ -47,6 +47,14 @@ body {
     border-color: rgba(255, 255, 255, 1);
 }
 
+.smallText {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin: 0.5em;
+}
+
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
