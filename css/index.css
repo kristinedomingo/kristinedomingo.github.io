@@ -1,71 +1,56 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     background-color: #FFFFFF;
+    width: 100%;
     height: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/poly.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #EEA1A4;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.35em;
+    border: 1px solid #FFFFFF;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 1);
 }
 
 h1 {
-    color: #FD6D6D;
-    font-size: 5vw;
-    font-family: 'Leckerli One', cursive;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    line-height: 135%;
-}
-
-h2 {
-    color: #777777;
-    font-size: 2vw;
-    font-family: 'Merriweather Sans', sans-serif;
-    padding-left: 5vw;
-    line-height: 135%;
-}
-
-h3 {
-    color: #777777;
-    font-size: 1.75vw;
-    font-family: 'Merriweather Sans', sans-serif;
-    padding-left: 5vw;
-    line-height: 135%;
-}
-
-ul {
-    font-size: 1.5vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #777777;
-    list-style-type: disc;
-    line-height: 135%;
-}
-
-ul li {
-    list-style-position: outside;
-    margin-left: 2vw;
-}
-
-#name {
-    width: 100%;
-    height: 100%;
-    background-color: #FD6D6D;
-    text-align: center;
-    display: table;
-}
-
-#nameText {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
     color: #FFFFFF;
-    font-family: 'Leckerli One', cursive;
-    font-size: 20vw;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.whiteBox {
-    width: 100%;
-    height: 50%;
-    background-color: #FFFFFF;
-    display: table;
+    font-size: 9em;
+    margin-bottom: 0.25em;
 }
