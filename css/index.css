@@ -132,4 +132,8 @@ ul li {
     html {
         font-size: 12px;
     }
+
+    .subSection {
+        width: 70%;
+    }
 }
