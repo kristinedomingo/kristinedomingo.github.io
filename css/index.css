@@ -62,10 +62,21 @@ body {
     margin: 0.5em;
 }
 
-.sectionNormal {
+.section {
+    padding-top: 4em;
+    padding-bottom: 4em;
     width: 100%;
-    height: 100%;
     background-color: #FFFFFF;
+}
+
+.subSection {
+    margin: auto;
+    width: 50%;
+}
+
+#footer {
+    background-color: #EEA1A4;
+    text-align: center;
 }
 
 h1 {
@@ -74,6 +85,7 @@ h1 {
     color: #FFFFFF;
     font-size: 6.5em;
     margin-bottom: 0.25em;
+    line-height: 1.25em;
 }
 
 h2 {
@@ -82,6 +94,38 @@ h2 {
     color: #EEA1A4;
     font-size: 6em;
     text-align: center;
+    line-height: 1.25em;
+    margin-bottom: 0.25em;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #444444;
+    font-size: 2em;
+    line-height: 1.25em;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #444444;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #444444;
+    font-size: 1em;
+    list-style-type: circle;
+    line-height: 1.35em;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: 1em;
 }
 
 @media only screen and (max-device-width: 480px) {
