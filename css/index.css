@@ -30,12 +30,12 @@ body {
 }
 
 .btn {
-    background: rgba(255, 255, 255, 0.2);
+    background-color: #FFFFFF;
     border-radius: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
-    color: rgba(255, 255, 255, 1);
+    color: #EEA1A4;
     display: inline-block;
     text-decoration: none;
     padding: 0.35em;
@@ -48,8 +48,10 @@ body {
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 1);
-    color: rgba(238, 161, 164, 1);
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 1);
 }
 
 .smallText {
