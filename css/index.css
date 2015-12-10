@@ -1,17 +1,14 @@
 html {
     height: 100%;
-    width: 100%;
     font-size: 16px;
 }
 
 body {
     background-color: #FFFFFF;
-    width: 100%;
     height: 100%;
 }
 
 #sectionHeader {
-    width: 100%;
     height: 100%;
     background-image: url("../imgs/poly.jpg");
     background-size: cover;
@@ -21,7 +18,6 @@ body {
 }
 
 #headerText {
-    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -133,6 +129,10 @@ ul li {
 @media only screen and (max-device-width: 480px) {
     html {
         font-size: 12px;
+    }
+
+    #headerText {
+        width: 80%;
     }
 
     .subSection {
