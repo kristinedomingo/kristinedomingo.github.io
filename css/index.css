@@ -26,12 +26,12 @@ body {
 }
 
 .btn {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 1);
     border-radius: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(218, 141, 144, 1);
     display: inline-block;
     text-decoration: none;
     padding: 0.5em;
@@ -45,12 +45,12 @@ body {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+    text-shadow: none;
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 1);
-    color: rgba(238, 161, 164, 1);
-    text-shadow: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);    
 }
 
 .smallText {
