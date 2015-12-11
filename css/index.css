@@ -24,6 +24,7 @@ html, button, input, select, textarea,
 }
 
 #headerText {
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,57 +63,13 @@ html, button, input, select, textarea,
     margin: 1em;
 }
 
-.section {
-    padding-top: 4em;
-    padding-bottom: 4em;
-    width: 100%;
-    background-color: #FFFFFF;
-}
-
-.subSection {
-    margin: auto;
-    width: 60%;
-}
-
-#footer {
-    background-color: #EEA1A4;
-    text-align: center;
-}
-
 h1 {
     color: #FFFFFF;
     font-size: 5em;
 }
 
-h2 {
-    color: #EEA1A4;
-    font-size: 6em;
-    text-align: center;
-    line-height: 1.25em;
-    margin-bottom: 0.25em;
-}
-
-h3 {
-    color: #444444;
-    font-size: 2.5em;
-    line-height: 1.25em;
-}
-
-h4 {
-    color: #444444;
-    font-size: 1.5em;
-    line-height: 1.25em;
-}
-
-ul {
-    font-size: 1em;
-    color: #444444;
-    font-size: 1em;
-    list-style-type: circle;
-    line-height: 1.35em;
-}
-
-ul li {
-    list-style-position: outside;
-    margin-left: 1em;
+@media only screen and (max-device-width: 480px) {
+    #headerText {
+        width: 90%;
+    }
 }
