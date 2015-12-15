@@ -24,7 +24,6 @@ html, button, input, select, textarea,
 }
 
 #headerText {
-    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,28 +32,28 @@ html, button, input, select, textarea,
 }
 
 .btn {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     font-size: 1.25em;
-    color: rgba(218, 141, 144, 1);
     display: inline-block;
     text-decoration: none;
     padding: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1em;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     text-shadow: none;
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: rgba(255, 255, 255, 1);    
+    background: rgba(255, 255, 255, 1);
+    color: rgba(218, 141, 144, 1);
 }
 
 .smallText {
@@ -66,10 +65,4 @@ html, button, input, select, textarea,
 h1 {
     color: #FFFFFF;
     font-size: 5em;
-}
-
-@media only screen and (max-device-width: 480px) {
-    #headerText {
-        width: 90%;
-    }
 }
