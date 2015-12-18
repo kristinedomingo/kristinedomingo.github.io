@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     background-image: url("../imgs/cubes.png");
     background-color: #EEEEEE;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ div {
 #box {
     margin: 3em auto;
     padding: 3em;
-    width: 745px;
+    width: 47em;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 15px 5px #DDDDDD;
 }
@@ -132,7 +132,7 @@ ul li {
     }
 
     ul {
-        font-size: 0.85em;
+        font-size: 0.95em;
         margin-left: 1em;
     }
 

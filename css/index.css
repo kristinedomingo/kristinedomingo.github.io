@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 #sectionHeader {
@@ -28,20 +28,18 @@ html, button, input, select, textarea,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 0px 0px 10px #A04657;
+    /*text-shadow: 0px 0px 10px #A04657;*/
 }
 
 .btn {
-    background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.1);
     border: 2px solid #FFFFFF;
     border-radius: 10px;
-    font-size: 1.25em;
+    font-size: 1em;
     display: inline-block;
     text-decoration: none;
     padding: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
     margin-bottom: 1em;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -52,17 +50,19 @@ html, button, input, select, textarea,
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 1);
     color: rgba(218, 141, 144, 1);
+    background: rgba(255, 255, 255, 1);
 }
 
 .smallText {
-    font-size: 2em;
+    font-size: 1.25em;
     color: #FFFFFF;
     margin: 1em;
+    margin-bottom: 3em;
 }
 
 h1 {
     color: #FFFFFF;
-    font-size: 5em;
+    font-size: 3em;
+    font-weight: 700;
 }
