@@ -73,6 +73,10 @@ h1 {
     .btn {
         font-size: .75em;
     }
+
+    img {
+        size: 70%;
+    }
 }
 
 @media screen and (min-width: 64em) {
