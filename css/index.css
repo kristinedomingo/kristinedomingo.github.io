@@ -1,3 +1,9 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 html {
     height: 100%;
     font-size: 23px;
@@ -8,10 +14,16 @@ body {
     height: 100%;
 }
 
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+p {
+    font-size: 1.25em;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2.75em;
+    font-weight: 700;
 }
 
 #sectionHeader {
@@ -46,18 +58,6 @@ html, button, input, select, textarea,
 
 .btn:hover {
     opacity: 0.5;
-}
-
-.smallText {
-    font-size: 1.25em;
-    color: #FFFFFF;
-    margin: 1em;
-}
-
-h1 {
-    color: #FFFFFF;
-    font-size: 2.75em;
-    font-weight: 700;
 }
 
 @media only screen and (max-device-width: 480px) {
