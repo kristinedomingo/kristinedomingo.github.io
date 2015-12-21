@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 1.15em;
     color: #FFFFFF;
     margin: 1em;
 }
@@ -65,7 +65,7 @@ h1 {
         font-size: 2.5em;
     }
 
-    .smallText {
+    p {
         font-size: 1em;
     }
 
@@ -83,7 +83,7 @@ h1 {
         font-size: 3.5em;
     }
 
-    .smallText {
+    p {
         font-size: 1.35em;
     }
 }
