@@ -5,13 +5,14 @@ html, button, input, select, textarea,
 }
 
 html {
-    height: 100%;
+    background-image: url("../imgs/poly.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
     font-size: 23px;
 }
 
 body {
     background-color: #FFFFFF;
-    height: 100%;
 }
 
 p {
@@ -28,10 +29,7 @@ h1 {
 
 #sectionHeader {
     height: 100%;
-    background-image: url("../imgs/poly.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+
     text-align: center;
 }
 
