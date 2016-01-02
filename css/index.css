@@ -1,83 +1,85 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kreon', serif;
     font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 
-html {
-    font-size: 23px;
+#outerWrapper {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#innerWrapper {
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+}
+
+#nameSection {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#aboutSection {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#linksSection {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
 }
 
 body {
-    background-color: #FFFFFF;
-    background-image: url("../imgs/poly.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-p {
-    font-size: 1.15em;
-    color: #FFFFFF;
-    margin: 1em;
+    background-color: #F7F7F7;
+    background-image: url("../imgs/classy_fabric.png");
+    background-repeat: repeat;
 }
 
 h1 {
-    color: #FFFFFF;
-    font-size: 2.75em;
-    font-weight: 700;
+    margin: 16px;
+    padding: 0em;
+    font-size: 4.5em;
 }
 
-#sectionHeader {
-    text-align: center;
-    margin: 10% auto 0 auto;
-    height: 100%;
+p {
+    margin: 1em;
+    font-size: 1.25em;
+    line-height: 1.2em;
 }
 
-#headerText {
-    margin-top: 5%;
+ul {
+    margin: 1em;
+    font-size: 1.25em;
 }
 
-.btn {
-    display: inline-block;
-    margin-bottom: 1em;
+a {
+    text-decoration: none;
+    color: #F67B91;
+    /*font-weight: 700;*/
+}
+
+a:hover {
+    opacity: 0.5;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 0.85em;
 }
 
-.btn:hover {
-    opacity: 0.5;
+img {
+    vertical-align: middle;
+    margin-right: 0.5em;
 }
 
-@media only screen and (max-device-width: 480px) {
-    h1 {
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    .btn {
-        font-size: .75em;
-    }
-
-    img {
-        size: 70%;
-    }
-}
-
-@media screen and (min-width: 64em) {
-    h1 {
-        font-size: 3.5em;
-    }
-
-    p {
-        font-size: 1.35em;
+@media screen and (min-width: 48em) {
+    #innerWrapper {
+        width: 700px;
     }
 }
