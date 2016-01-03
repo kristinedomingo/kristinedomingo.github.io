@@ -50,6 +50,7 @@ h1 {
 
 p {
     margin: 1em;
+    margin-bottom: 0em;
     font-size: 1.25em;
     line-height: 1.2em;
 }
