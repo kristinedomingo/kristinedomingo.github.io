@@ -1,0 +1,9 @@
+blog/_site
+blog/.DS_Store
+blog/.jekyll
+blog/.bundle
+blog/.sass-cache
+blog/Gemfile
+blog/Gemfile.lock
+blog/node_modules
+blog/package.json
