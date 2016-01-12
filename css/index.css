@@ -3,7 +3,7 @@ html, button, input, select, textarea,
     font-family: 'Kreon', serif;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #outerWrapper {
@@ -44,7 +44,7 @@ body {
 h1 {
     margin: 16px;
     padding: 0em;
-    font-size: 4.5em;
+    font-size: 4em;
     font-weight: 700;
 }
 
@@ -81,7 +81,11 @@ img {
 }
 
 @media screen and (min-width: 48em) {
+    h1 {
+        font-size: 4.5em;
+    }
+
     #innerWrapper {
-        width: 700px;
+        width: 770px;
     }
 }
