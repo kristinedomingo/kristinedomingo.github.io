@@ -25,7 +25,6 @@ html, button, input, select, textarea,
     vertical-align: top;
     margin-top: 10px;
     text-align: left;
-    font-size: 0.8em;
 }
 
 #linksSection {
@@ -53,7 +52,7 @@ h1 {
 p {
     margin: 1em;
     margin-bottom: 0em;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.2em;
 }
 
