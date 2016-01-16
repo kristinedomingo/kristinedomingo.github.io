@@ -72,7 +72,19 @@ a:hover {
 }
 
 @media screen and (min-width: 48em) {
+
+
     #innerWrapper {
         width: 875px;
+    }
+}
+
+@media screen and (min-width: 35.5em) {
+    h1 {
+        font-size: 4.25em;
+    }
+
+    #linksSection {
+        font-size: 1em;
     }
 }
