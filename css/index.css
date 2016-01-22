@@ -52,7 +52,7 @@ h1 {
 p {
     margin: 1em;
     margin-bottom: 0em;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.2em;
 }
 
@@ -71,8 +71,6 @@ a:hover {
 }
 
 @media screen and (min-width: 48em) {
-
-
     #innerWrapper {
         width: 875px;
     }
