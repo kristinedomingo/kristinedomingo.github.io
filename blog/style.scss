@@ -331,9 +331,10 @@ tbody tr:nth-child(odd) th {
   
   .masthead-nav {
     margin-bottom: 2rem;
+    text-transform: lowercase;
     
     a {
-      color: #ed8497;
+      color: #ccc;
       font-weight: 400;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
