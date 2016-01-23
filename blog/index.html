@@ -7,7 +7,11 @@ layout: default
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
+      {% if nav.name != "Homepage" %}
+        <a href="{{ nav.href }}">{{ nav.name }}</a> &nbsp;/
+      {% else %}
+        <a href="{{ nav.href }}">{{ nav.name }}</a>
+      {% endif %}
     {% endfor %}
   </nav>
 </header>

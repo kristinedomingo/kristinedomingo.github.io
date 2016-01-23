@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  color: #ccc;
+  color: #e6e6e6;
   background-color: #2D2E32;
   background-image: url("../imgs/bg.png");
   background-repeat: repeat;
@@ -60,7 +60,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
+
+  @media (min-width: 38em) {
+    font-size: 2.3rem;
+  }
 }
 
 h2 {
@@ -323,9 +327,8 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2rem;
     
     a {
-      color: #fff;
+      color: #ed8497;
       font-weight: 400;
-      text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
