@@ -38,6 +38,7 @@ body {
     background-color: #2D2E32;
     background-image: url("../imgs/bg.png");
     background-repeat: repeat;
+    background-attachment: fixed;
     margin-bottom: 30px;
 }
 
