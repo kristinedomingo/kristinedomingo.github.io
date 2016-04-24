@@ -9,65 +9,70 @@
   <meta name="author" content="Kristine Domingo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/materialize.css">
-
-  <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Lobster+Two'
-        rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kreon:400,300,700">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/pure.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
   <body>
-    <div class="container">
-      <div class="row">
+    <div id="outerWrapper">
+      <div id="innerWrapper" class="pure-g">
 
-          <div class="col s12">
-            <h1 id="name" class="center-align">Kristine Domingo</h1>
-            <div>
-              <a href="mailto:kristineadomingo@gmail.com">Email</a>
-              <a href="resume.pdf">Resume</a>
-              <a href="https://www.linkedin.com/in/kristinedomingo">LinkedIn</a>
+          <!-- Name/Left Section -->
+          <div id="nameSection" class="pure-u-1 pure-u-md-11-24">
+            <h1>Kristine Domingo</h1>
+            <div id="linksSection">
+              <a href="mailto:kristineadomingo@gmail.com">Email</a> &nbsp;/&nbsp;
+              <a href="resume/resume.pdf">Resume</a> &nbsp;/&nbsp;
+              <a href="https://www.linkedin.com/in/kristinedomingo">LinkedIn</a> &nbsp;/&nbsp;
               <a href="https://github.com/kristinedomingo">GitHub</a>
             </div>
           </div>
 
-          <div class="col s12">
-            <p>
-              Hi! I'm Kristine, a Junior studying Computer Science at
-              the <a href="http://www.cs.utexas.edu">
-              University of Texas at Austin</a>.
-            </p>
-            <p>
-              This semester, I'm working as an undergraduate
-              Teaching Assistant for Mike Scott's 
-              <a href="https://www.cs.utexas.edu/~scottm/cs314/">
-              CS 314: Data Structures</a>. I am also taking
-              <a href="http://www.cs.utexas.edu/users/downing/cs373">
-              CS 373: Software Engineering</a>, and the the weekly blog about my
-              experiences in the class can be found <a href="/cs373-blog">here</a>.
-            </p>
-            <p>
-              My interest in programming began in middle school with
-              <a href="http://alice.org">Alice</a>, a 3D programming
-              environment. Since then, that interest has turned into a
-              strong passion for Computer Science, and technology in
-              general.
-            </p>
-            <p>
-              I have previously done Software Engineering internships at
-              <a href="http://new.abb.com/enterprise-software">ABB Enterprise
-              Software</a> and <a href="http://ni.com">National Instruments</a>.
-              Next summer, I will be starting my third one at
-              <a href="http://www.retailmenot.com">RetailMeNot,
-              Inc.</a>
-            </p>
-          </div>
+          <!-- About/Right Section -->
+          <div class="pure-u-1 pure-u-md-13-24">
+            <div id="aboutSection">
+              <p>
+                Hi! I'm Kristine, a Junior studying Computer Science at
+                the <a href="http://www.cs.utexas.edu">
+                University of Texas at Austin</a>.
+              </p>
+              <p>
+                This semester, I'm working as an undergraduate
+                Teaching Assistant for Mike Scott's 
+                <a href="https://www.cs.utexas.edu/~scottm/cs314/">
+                CS 314: Data Structures</a>. I am also taking
+                <a href="http://www.cs.utexas.edu/users/downing/cs373">
+                CS 373: Software Engineering</a>, and the the weekly blog about my
+                experiences in the class can be found <a href="/cs373-blog">here</a>.
+              </p>
+              <p>
+                My interest in programming began in middle school with
+                <a href="http://alice.org">Alice</a>, a 3D programming
+                environment. Since then, that interest has turned into a
+                strong passion for Computer Science, and technology in
+                general.
+              </p>
+              <p>
+                I have previously done Software Engineering internships at
+                <a href="http://new.abb.com/enterprise-software">ABB Enterprise
+                Software</a> and <a href="http://ni.com">National Instruments</a>.
+                Next summer, I will be starting my third one at
+                <a href="http://www.retailmenot.com">RetailMeNot,
+                Inc.</a>
+              </p>
+            </div>
 
+          </div> <!-- right section -->
       </div> <!-- innerWrapper -->
     </div> <!-- outerWrapper -->
-
-    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <!-- Google Analytics -->
     <script>
