@@ -9,7 +9,7 @@
   <meta name="author" content="Kristine Domingo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Unica+One'>
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
@@ -17,32 +17,31 @@
 
   <body>
 
-    <div class="valign-wrapper">
-      <div class="valign" id="content">
+    <div class="vcenter">
+      <div id="content">
 
         <!-- Logo, name, description -->
         <img id="kdImg" src="imgs/kd.png">
         <span id="name">KRISTINE DOMINGO</span>
         <span id="description">Student / Software Developer</span>
 
-        <!-- Dropdown trigger -->
-        <a class='dropdown-button' href='#' data-activates='dropdown1'
-           data-beloworigin="true" data-hover="false"
-           data-alignment="left" data-gutter="-37">
+        <div class="dropdown">
+          <a class="dropdown-toggle" href="" id="menu"
+             data-toggle="dropdown" aria-haspopup="true">
             <img src="imgs/downArrow.png" id="downArrow">
-        </a>
+          </a>
+          <ul class="dropdown-menu dropdown-content" aria-labelledby="menu">
+            <li><a href="https://github.com/kristinedomingo">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/kristinedomingo">LinkedIn</a></li>
+            <li><a href="mailto:me@kristinedomingo.com">Email</a></li>
+            <li><a href="resume.pdf">Resume</a></li>
+          </ul>
+        </div>
 
-        <!-- Dropdown Structure -->
-        <ul id='dropdown1' class='dropdown-content'>
-          <li><a href="https://github.com/kristinedomingo">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/kristinedomingo">LinkedIn</a></li>
-          <li><a href="mailto:kristineadomingo@gmail.com">Email</a></li>
-          <li><a href="resume.pdf">Resume</a></li>
-        </ul>
       </div>
     </div>
     
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
 </html>
