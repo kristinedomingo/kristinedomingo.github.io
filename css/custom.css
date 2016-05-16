@@ -40,10 +40,21 @@ html, body {
   margin-top: 10px;
 }
 
+.dropdown {
+  overflow-y: visible;
+  height: 50px;
+}
+
+.dropdown-menu {
+  margin: auto;
+  position: relative;
+  float: none;
+  margin-top: -50px;
+}
+
 .dropdown-content {
   box-shadow: none;
   border: none;
-  left: 27%;
   font-family: 'Quicksand', sans-serif;
 }
 
