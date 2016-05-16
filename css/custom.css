@@ -1,6 +1,12 @@
 html, body {
   height: 100%;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 35.5em) {
+  html, body {
+    font-size: 15px;
+  }
 }
 
 .vcenter {
@@ -15,7 +21,13 @@ html, body {
 }
 
 #kdImg {
-  max-width: 150px;
+  max-width: 125px;
+}
+
+@media screen and (min-width: 35.5em) {
+  #kdImg {
+    max-width: 150px;
+  }
 }
 
 #name {
@@ -30,9 +42,15 @@ html, body {
   display: block;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: -1px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   color: #999;
+}
+
+@media screen and (min-width: 35.5em) {
+  #description {
+    font-size: 1.2rem;
+  }
 }
 
 #downArrow {
@@ -60,7 +78,13 @@ html, body {
 
 .dropdown-content li {
   min-height: 0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 35.5em) {
+  .dropdown-content li {
+    font-size: 1.1rem;
+  }
 }
 
 .dropdown-content li a {
