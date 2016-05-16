@@ -15,21 +15,24 @@ html, body {
 }
 
 #kdImg {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 #name {
   display: block;
-  font-size: 2.25rem;
-  padding-top: 20px;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  padding-top: 10px;
   font-family: 'Quicksand', sans-serif;
 }
 
 #description {
   display: block;
   font-family: 'Quicksand', sans-serif;
-  letter-spacing: -2px;
-  font-size: 1.25rem;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #999;
 }
 
 #downArrow {
@@ -40,7 +43,7 @@ html, body {
 .dropdown-content {
   box-shadow: none;
   border: none;
-  left: 26.5%;
+  left: 30%;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -51,14 +54,14 @@ html, body {
 
 .dropdown-content li a {
   text-align: center;
-  color: #000;
+  color: #999;
   padding: 5px 0px;
   letter-spacing: -2px;
 }
 
 .dropdown-content li a:hover {
   background: transparent;
-  color: #AE6FC9;
+  color: #b0e4d7;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
