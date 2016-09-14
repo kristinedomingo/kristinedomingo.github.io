@@ -15,22 +15,12 @@ html, body {
   align-items: center;
 }
 
-#content {
+.content {
   margin: auto;
   text-align: center;
 }
 
-#kdImg {
-  max-width: 125px;
-}
-
-@media screen and (min-width: 35.5em) {
-  #kdImg {
-    max-width: 150px;
-  }
-}
-
-#name {
+.name {
   display: block;
   letter-spacing: 2px;
   font-size: 2.5rem;
@@ -38,7 +28,7 @@ html, body {
   font-family: 'Quicksand', sans-serif;
 }
 
-#description {
+.description {
   display: block;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: -1px;
@@ -67,11 +57,11 @@ a:hover {
   text-decoration: none;
 }
 
-#icons {
+.icons {
   margin-top: 10px;
 }
 
-#icons svg {
+.icons svg {
   width: 45px;
   height: 45px;
   fill: #9fa8da;
@@ -82,6 +72,6 @@ a:hover {
   transition:.5s;
 }
 
-#icons svg:hover {
+.icons svg:hover {
   fill: #e8eaf6;
 }
