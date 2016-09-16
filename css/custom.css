@@ -50,6 +50,7 @@ a {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
+  font-family: 'Quicksand', sans-serif;
 }
 
 a:hover {
