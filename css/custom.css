@@ -62,7 +62,7 @@ a:hover {
   margin-top: 10px;
 }
 
-.icons svg {
+.icon {
   width: 45px;
   height: 45px;
   fill: #9fa8da;
@@ -73,6 +73,6 @@ a:hover {
   transition:.5s;
 }
 
-.icons svg:hover {
+.icon:hover {
   fill: #e8eaf6;
 }
