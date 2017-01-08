@@ -1,0 +1,74 @@
+---
+---
+
+/* Variables */
+$mobile-font-size: 15px;
+$desktop-font-size: 18px;
+
+$name-font-size: 3.5em;
+
+$primary-font: 'Pacifico', cursive;
+$secondary-font: 'Quicksand', sans-serif;
+
+$primary-color: #555;
+$highlight-color: #9fa8da;
+
+html, body {
+  height: 100%;
+  font-size: $mobile-font-size;
+  font-family: $secondary-font;
+}
+
+@media screen and (min-width: 35.5em) {
+  html, body {
+    font-size: $desktop-font-size;
+  }
+}
+
+.vcenter {
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  display: block;
+  letter-spacing: -1px;
+  padding: 10px 0px; /* top-bottom, left-right */
+  font-size: $name-font-size;
+  font-family: $primary-font;
+  color: $primary-color;
+}
+
+.description {
+  display: block;
+  letter-spacing: -1px;
+  font-size: 1rem;
+  color: $primary-color;
+}
+
+@media screen and (min-width: 35.5em) {
+  #description {
+    font-size: 1.2rem;
+  }
+}
+
+a {
+  color: $highlight-color;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover {
+  color: $highlight-color;
+  opacity: 0.7;
+  text-decoration: none;
+}
