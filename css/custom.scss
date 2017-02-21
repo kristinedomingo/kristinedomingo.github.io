@@ -10,9 +10,9 @@ $name-font-size: 3.5em;
 $primary-font: 'Pacifico', cursive;
 $secondary-font: 'Quicksand', sans-serif;
 
-$primary-color: #555;
-$highlight-color: #FA8072;
-$background-color: #F5F5F5;
+$primary-color: #fff;
+$highlight-color: #fff;
+$background-color: #8C95C5;
 
 html, body {
   height: 100%;
@@ -41,7 +41,6 @@ html, body {
 .name {
   display: block;
   letter-spacing: -1px;
-  padding: 10px 0px; /* top-bottom, left-right */
   font-size: $name-font-size;
   font-family: $primary-font;
   color: $primary-color;
@@ -52,6 +51,11 @@ html, body {
   letter-spacing: -1px;
   font-size: 1rem;
   color: $primary-color;
+  margin-bottom: 30px;
+}
+
+.resume {
+    background-color: #555;
 }
 
 @media screen and (min-width: 35.5em) {
@@ -71,6 +75,6 @@ a {
 
 a:hover {
   color: $highlight-color;
-  opacity: 0.7;
+  opacity: 0.5;
   text-decoration: none;
 }
