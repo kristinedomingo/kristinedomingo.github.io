@@ -44,6 +44,7 @@ html, body {
   font-size: $name-font-size;
   font-family: $primary-font;
   color: $primary-color;
+  line-height: 1em;
 }
 
 .description {
@@ -52,6 +53,7 @@ html, body {
   font-size: 1rem;
   color: $primary-color;
   margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 .resume {
@@ -59,8 +61,12 @@ html, body {
 }
 
 @media screen and (min-width: 35.5em) {
-  #description {
-    font-size: 1.2rem;
+  .name {
+      line-height: 90px;
+  }
+
+  .description {
+      margin-top: 0px;
   }
 }
 
