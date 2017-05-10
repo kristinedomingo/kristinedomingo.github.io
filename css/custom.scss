@@ -12,13 +12,18 @@ $secondary-font: 'Quicksand', sans-serif;
 
 $primary-color: #fff;
 $highlight-color: #fff;
-$background-color: #8C95C5;
+$background-color: #6669A8;
+$background-color-2: #7eaece;
 
 html, body {
   height: 100%;
   font-size: $mobile-font-size;
   font-family: $secondary-font;
-  background-color: $background-color;
+  background: $background-color; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($background-color, $background-color-2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($background-color, $background-color-2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($background-color, $background-color-2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($background-color, $background-color-2); /* Standard syntax */
 }
 
 @media screen and (min-width: 35.5em) {
@@ -57,7 +62,8 @@ html, body {
 }
 
 .resume {
-    background-color: #555;
+  border: 1px solid $primary-color;
+  background: none;
 }
 
 @media screen and (min-width: 35.5em) {
