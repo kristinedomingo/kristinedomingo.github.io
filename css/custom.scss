@@ -5,10 +5,10 @@
 $mobile-font-size: 15px;
 $desktop-font-size: 18px;
 
-$name-font-size: 3.5em;
+$name-font-size: 4em;
 
 $primary-font: 'Pacifico', cursive;
-$secondary-font: 'Quicksand', sans-serif;
+$secondary-font: 'Raleway', sans-serif;
 
 $primary-color: #fff;
 $highlight-color: #fff;
@@ -54,8 +54,8 @@ html, body {
 
 .description {
   display: block;
-  letter-spacing: -1px;
   font-size: 1rem;
+  font-weight: 100;
   color: $primary-color;
   margin-bottom: 30px;
   margin-top: 15px;
@@ -64,6 +64,8 @@ html, body {
 .resume {
   border: 1px solid $primary-color;
   background: none;
+  font-family: $secondary-font;
+  font-weight: 100;
 }
 
 @media screen and (min-width: 35.5em) {
