@@ -111,11 +111,12 @@ html, body {
 .links {
     border: 2px solid $border-color;
     height: 50%;
-
+    border-top: 0;
 }
 
 @media screen and (min-width: 35.5em) {
     .links {
+        border: 2px solid $border-color;
         height: 100%;
     }
 }
