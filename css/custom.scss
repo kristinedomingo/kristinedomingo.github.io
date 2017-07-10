@@ -2,7 +2,7 @@
 ---
 
 /* Variables */
-$mobile-font-size: 15px;
+$mobile-font-size: 12px;
 $desktop-font-size: 18px;
 $primary-font: 'Raleway', sans-serif;
 
@@ -15,6 +15,9 @@ $font-color: #FFFFFF;
 
 $box-width: 40em;
 $box-height: 10em;
+
+$box-width-mobile: 20em;
+$box-height-mobile: 20em;
 
 /* Vertical align mixin */
 @mixin vertical-align($position: relative) {
@@ -33,15 +36,21 @@ html, body {
   color: $font-color;
 
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* Standard syntax */
+  background: -webkit-linear-gradient($gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* Standard syntax */
 }
 
 @media screen and (min-width: 35.5em) {
   html, body {
     font-size: $desktop-font-size;
+
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* Standard syntax */
   }
 }
 
@@ -51,58 +60,93 @@ html, body {
     @include vertical-align();
     z-index: 1;
     margin: auto;
-    width: $box-width;
-    height: $box-height;
+    width: $box-width-mobile;
+    height: $box-height-mobile;
     overflow: visible;
+}
+
+@media screen and (min-width: 35.5em) {
+    .border-shift {
+        width: $box-width;
+        height: $box-height;
+    }
 }
 
 /* Wrapper vcenter div */
 .vcenter {
     margin: auto;
-    width: $box-width;
-    height: $box-height;
+    width: $box-width-mobile;
+    height: $box-height-mobile;
     z-index: 2;
     right: 10px;
-    top: 10px;
+    top: 5px;
     position: relative;
+}
+
+@media screen and (min-width: 35.5em) {
+    .vcenter {
+        width: $box-width;
+        height: $box-height;
+        top: 10px;
+    }
 }
 
 /* Name div */
 .name {
     border: 2px solid $border-color;
-    float: left;
-    width: 60%;
-    height: 100%;
-    margin-right: 50px;
+    float: none;
+    height: 50%;
+}
+
+@media screen and (min-width: 35.5em) {
+    .name {
+        float: left;
+        width: 60%;
+        margin-right: 50px;
+        height: 100%;
+    }
 }
 
 /* Links div */
 .links {
     border: 2px solid $border-color;
-    height: 100%;
+    height: 50%;
+
+}
+
+@media screen and (min-width: 35.5em) {
+    .links {
+        height: 100%;
+    }
 }
 
 /* Name text rules */
 .name-text {
-    @include vertical-align();
     text-align: center;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-size: 1.3em;
+    font-size: 1em;
+    @include vertical-align();
 }
 
 /* Links text rules */
 .links-text {
-    @include vertical-align();
-    text-align: left;
+    text-align: center;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.7em;
     line-height: 2.5em;
+    @include vertical-align();
 
     a {
         color: $font-color;
+    }
+}
+
+@media screen and (min-width: 35.5em) {
+    .links-text {
+        text-align: left;
     }
 }
