@@ -127,8 +127,14 @@ html, body {
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-size: 1em;
+    font-size: 1.1em;
     @include vertical-align();
+}
+
+@media screen and (min-width: 35.5em) {
+    .name-text {
+        font-size: 1.4em;
+    }
 }
 
 /* Links text rules */
