@@ -6,9 +6,8 @@ $mobile-font-size: 12px;
 $desktop-font-size: 18px;
 $primary-font: 'Raleway', sans-serif;
 
-$gradient-stop-1: #4A2177;
-$gradient-stop-2: #BD597A;
-$gradient-stop-3: #FFCA88;
+$gradient-stop-1: #B24592;
+$gradient-stop-2: #F15F79;
 
 $border-color: #FFFFFF;
 $font-color: #FFFFFF;
@@ -36,10 +35,10 @@ html, body {
   color: $font-color;
 
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient($gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient($gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Firefox 3.6 to 15 */
-  background: linear-gradient($gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* Standard syntax */
+  background: -webkit-linear-gradient($gradient-stop-1, $gradient-stop-2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($gradient-stop-1, $gradient-stop-2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($gradient-stop-1, $gradient-stop-2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($gradient-stop-1, $gradient-stop-2); /* Standard syntax */
 }
 
 @media screen and (min-width: 35.5em) {
@@ -47,10 +46,10 @@ html, body {
     font-size: $desktop-font-size;
 
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, $gradient-stop-1, $gradient-stop-2 $gradient-stop-3); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, $gradient-stop-1, $gradient-stop-2, $gradient-stop-3); /* Standard syntax */
+    background: -webkit-linear-gradient(left, $gradient-stop-1, $gradient-stop-2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, $gradient-stop-1, $gradient-stop-2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $gradient-stop-1, $gradient-stop-2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $gradient-stop-1, $gradient-stop-2); /* Standard syntax */
   }
 }
 
