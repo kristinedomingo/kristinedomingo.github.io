@@ -80,6 +80,7 @@ a {
     text-decoration: none;
     letter-spacing: 0.05em;
     transition: color 0.2s ease;
+    white-space: nowrap;
 }
 
 a::before {
@@ -104,6 +105,25 @@ a:hover {
     line-height: 2.2;
     color: var(--text);
     text-align: center;
+}
+
+/* Tablet: tighten the 3-column layout */
+@media (max-width: 960px) {
+    body {
+        column-gap: 3rem;
+        padding: 3rem 2rem;
+    }
+
+    .side-left,
+    .side-right {
+        font-size: 0.95rem;
+    }
+
+    nav {
+        gap: 1.2rem;
+        font-size: 1rem;
+    }
+
 }
 
 /* Mobile: stack vertically */
