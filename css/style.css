@@ -8,6 +8,7 @@
     --bg:             #E6EAF7;
     --text:           #2843A8;
     --text-secondary: #5062A0;
+    --accent:         #B0845E;
 }
 
 html, body {
@@ -53,8 +54,8 @@ h1          { opacity: 0; animation: fadeIn 0.7s ease 0.0s forwards; }
 .divider {
     width: 2rem;
     height: 1px;
-    background-color: var(--text);
-    opacity: 0.3;
+    background-color: var(--accent);
+    opacity: 0.6;
     margin: 0 auto 2rem;
 }
 
@@ -94,7 +95,7 @@ a::after {
 }
 
 a:hover {
-    color: var(--text);
+    color: var(--accent);
 }
 
 /* Side text */
